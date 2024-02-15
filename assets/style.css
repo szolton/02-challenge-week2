@@ -4,15 +4,34 @@ body {
     padding: 0;
 }
 
+.nav-header {
+    background-color: #6ac9cb;
+    font-size: 18px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+   
+}
+
 header {
-    background-color: white;
-    color: gray;
+    background-color: #6ac9cb;
+    color: white;
     padding: 10px 20px;
 }
 
-header h1 {
-    color: #6ac9cb;
+.name {
+    color: white;
     font-family: "Bebas Neue", Arial, sans-serif;
+}
+
+.name h1 {
+    font-size: 64px;
+    margin-left: 20px;
+}
+
+p {
+    font-family: "FranklinGothic URW", Arial, sans-serif;
 }
 
 nav {
@@ -38,7 +57,7 @@ nav ul li: last-child {
 }
 
 nav ul li a {
-    color: gray;
+    color: whitesmoke;
     text-decoration: none;
 }
 
