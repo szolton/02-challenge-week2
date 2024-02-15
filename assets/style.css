@@ -1,0 +1,58 @@
+body {
+    font-family: "FranklinGothic URW", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: gray;
+    padding: 10px 20px;
+}
+
+header h1 {
+    color: #6ac9cb;
+    font-family: "Bebas Neue", Arial, sans-serif;
+}
+
+nav {
+    float: right; /* Float the navigation to the right */
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li: last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: gray;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.paramore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.paramore img {
+    width: 800px;
+}
