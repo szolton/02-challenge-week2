@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+p {
+    font-family: "FranklinGothic URW", Arial, sans-serif;
+}
+
 .nav-header {
     background-color: #6ac9cb;
     font-size: 18px;
@@ -23,16 +27,39 @@ header {
 .name {
     color: white;
     font-family: "Bebas Neue", Arial, sans-serif;
+    text-align: center;
 }
 
 .name h1 {
-    font-size: 64px;
-    margin-left: 20px;
+    font-size: 84px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
 }
 
-p {
-    font-family: "FranklinGothic URW", Arial, sans-serif;
+@media only screen and (max-width: 720px) {
+    .name h1 {
+        padding: 20px;
+        text-align: left;
+        font-size: 73px;
+    }
+
+    .name {
+        order: 2;
+    }
+
+    .nav-header {
+        flex-direction: column-reverse;;
+        align-items: center;
+        font-size: 28px;
+    }
+
+    nav {
+        order: 1; /* Move the nav to the top */
+        margin-bottom: 20px; /* Add some space between nav and name */
+    }
 }
+
 
 nav {
     float: right; /* Float the navigation to the right */
@@ -52,7 +79,7 @@ nav ul li {
     margin-right: 20px;
 }
 
-nav ul li: last-child {
+nav ul li:last-child {
     margin-right: 0;
 }
 
@@ -75,3 +102,4 @@ nav ul li a:hover {
 .paramore img {
     width: 800px;
 }
+
