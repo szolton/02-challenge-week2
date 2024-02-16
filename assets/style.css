@@ -6,6 +6,7 @@ body {
 
 p {
     font-family: "FranklinGothic URW", Arial, sans-serif;
+    font-size: 18px;
 }
 
 .nav-header {
@@ -61,8 +62,9 @@ header {
 
     .title-headers {
         text-align: center;
-        padding: 0 20px;
-        margin: 0 auto;
+        padding-left: 42px;
+    
+      
 
         /* text-align: center;
         justify-content: center;
@@ -121,11 +123,16 @@ nav ul li a:hover {
 .title-headers {
     font-family: "Bebas Neue", Arial, sans-serif;
     color: #6ac9cb;
-    text-align: left;
+    text-align: center;
     font-size: 32px;
-    padding-left: 320px;
+    margin-bottom: -10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 400px;
+    /* padding-left: 320px;
     margin-top: 50px;
-    margin-bottom: -15px;
+    margin-bottom: -15px; */
 }
 
 .paramore {
