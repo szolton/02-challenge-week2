@@ -60,11 +60,18 @@ header {
     }
 
     .title-headers {
-        text-align: left;
+        text-align: center;
+        padding: 0 20px;
+        margin: 0 auto;
+
+        /* text-align: center;
+        justify-content: center;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        padding-left: 20px;
+        padding-left: 0;
+        margin: 0 auto; */
+
     }
 
     .paramore {
@@ -117,6 +124,8 @@ nav ul li a:hover {
     text-align: left;
     font-size: 32px;
     padding-left: 320px;
+    margin-top: 50px;
+    margin-bottom: -15px;
 }
 
 .paramore {
