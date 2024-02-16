@@ -58,6 +58,25 @@ header {
         order: 1; /* Move the nav to the top */
         margin-bottom: 20px; /* Add some space between nav and name */
     }
+
+    .title-headers {
+        text-align: left;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding-left: 20px;
+    }
+
+    .paramore {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paramore img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 
@@ -92,6 +111,14 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+.title-headers {
+    font-family: "Bebas Neue", Arial, sans-serif;
+    color: #6ac9cb;
+    text-align: left;
+    font-size: 32px;
+    padding-left: 320px;
+}
+
 .paramore {
     display: flex;
     justify-content: center;
@@ -102,4 +129,3 @@ nav ul li a:hover {
 .paramore img {
     width: 800px;
 }
-
