@@ -11,7 +11,8 @@ body {
 p {
     font-family: "FranklinGothic URW", Arial, sans-serif;
     font-size: 18px;
-    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
 
@@ -92,7 +93,16 @@ nav {
 
 /* the page titles */
 .title-headers {
-    text-align: center;     
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+    font-size: 24px;   
+}
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
 }
 
 p {
@@ -156,6 +166,14 @@ nav ul {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.sub-header {
+    font-family: "Bebas Neue", Arial, sans-serif;
+    color: #6ac9cb;
+    text-align: left;
+    font-size: 48px;
+    padding-top: 18px;
+}
     
  /* images */
 .paramore {
@@ -178,7 +196,7 @@ nav ul {
     text-align: center;
     font-size: 32px;
     align-items: flex-start;
-    padding: 20px;
+    padding: 10px;
 }
    
 /* about me text paragraphs */
