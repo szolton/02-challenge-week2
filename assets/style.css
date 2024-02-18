@@ -1,7 +1,9 @@
+
 body {
     font-family: "FranklinGothic URW", Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: linear-gradient(to right, white, lightcyan)
 }
 
 p {
@@ -9,6 +11,12 @@ p {
     font-size: 18px;
     padding: 20px;
 }
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from the parent */
+}
+
 
 .nav-header {
     background-color: #6ac9cb;
@@ -54,6 +62,7 @@ header {
         padding: 20px;
         text-align: left;
         font-size: 73px;
+        color: white;
     }
 
     .name {
@@ -72,15 +81,8 @@ header {
     }
 
     .title-headers {
-        text-align: center;
-        /* padding-left: 42px; */
-
-        
+        text-align: center;     
     }
-/* 
-    .title-headers p {
-        display: flex;
-        flex-wrap: wrap; */
 
     }
 
@@ -97,7 +99,7 @@ header {
     }
 
 nav {
-    float: right; /* Float the navigation to the right */
+    float: right; 
    
 }
 
@@ -133,13 +135,9 @@ nav ul li a:hover {
     text-align: center;
     font-size: 32px;
     margin-bottom: -10px;
-    /* white-space: nowrap; */
     overflow: hidden;
     text-overflow: ellipsis;
-    /* padding-right: 400px; */
-    /* padding-left: 320px;
-    margin-top: 50px;
-    margin-bottom: -15px; */
+
 }
 
 .paramore {
@@ -159,10 +157,6 @@ nav ul li a:hover {
     flex-direction: row;
     text-align: center;
     font-size: 32px;
-    /* margin-bottom: -10px; */
-    /* margin-right: 100px; */
-    /* overflow: hidden;
-    text-overflow: ellipsis; */
     align-items: flex-start;
 
 }
@@ -172,23 +166,36 @@ nav ul li a:hover {
     font-size: 18px;
     padding: 20px;
     text-align: justify;
-    /* margin-right: 30px; */
-    /* align-items: flex-start; */
+ 
 }
 
 .selfie {
     display: flex;
-    /* align-items: flex-start; */
-    /* max-width: auto; */
-    /* margin: 20px;
-    padding: 20px; */
+  
 }
 
 .selfie img {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     max-width: 500px;
     padding: 20px;
-    /* padding-top: 20px; */
+}
 
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+.typewriter {
+    overflow: hidden;
+    border-right: .15em white;
+    white-space: nowrap;
+    margin: 0 auto;
+    padding-top: 50px;
+    animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
 }
