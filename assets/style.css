@@ -142,6 +142,7 @@ nav ul li a:hover {
 
 .paramore {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -149,6 +150,7 @@ nav ul li a:hover {
 
 .paramore img {
     width: 800px;
+    padding: 20px;
 }
 
 .about {
