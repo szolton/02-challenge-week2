@@ -40,23 +40,14 @@ header {
 }
 
 @media only screen and (max-width: 720px) {
-
-    .about-text {
-        flex-direction: column;
-        flex: 1;
-    }
-
     .selfie {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        padding: 20px;
     }
 
-    .selfie img {
-        order: 2;
-        padding-left: 0;
-        padding-top: 20 px;
-    
+    .about-text {
+        margin: auto;
     }
 
     .name h1 {
@@ -76,8 +67,8 @@ header {
     }
 
     nav {
-        order: 1; /* Move the nav to the top */
-        margin-bottom: 20px; /* Add some space between nav and name */
+        order: 1; 
+        margin-bottom: 20px; 
     }
 
     .title-headers {
@@ -168,10 +159,10 @@ nav ul li a:hover {
     flex-direction: row;
     text-align: center;
     font-size: 32px;
-    margin-bottom: -10px;
-    margin-right: 100px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    /* margin-bottom: -10px; */
+    /* margin-right: 100px; */
+    /* overflow: hidden;
+    text-overflow: ellipsis; */
     align-items: flex-start;
 
 }
@@ -181,21 +172,23 @@ nav ul li a:hover {
     font-size: 18px;
     padding: 20px;
     text-align: justify;
-    align-items: flex-start;
+    /* margin-right: 30px; */
+    /* align-items: flex-start; */
 }
 
 .selfie {
     display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-start;
-    margin-bottom: 20px;
+    /* align-items: flex-start; */
+    /* max-width: auto; */
+    /* margin: 20px;
+    padding: 20px; */
 }
 
 .selfie img {
     display: flex;
-    max-width: 400px;
-    padding-left: 50px;
-    padding-top: 50px;
-    order: 1;
+    flex-wrap: wrap;
+    max-width: 500px;
+    padding: 20px;
+    /* padding-top: 20px; */
 
 }
