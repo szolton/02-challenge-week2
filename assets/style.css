@@ -11,7 +11,8 @@ body {
 p {
     font-family: "FranklinGothic URW", Arial, sans-serif;
     font-size: 18px;
-    padding: 20px;
+    padding: 15px;
+    
 }
 
 a {
@@ -93,6 +94,11 @@ nav {
 .title-headers {
     text-align: center;     
 }
+
+p {
+    font-size: 24px;
+    text-align: center;
+}
 }
 
 /* portfolio images  */
@@ -172,6 +178,7 @@ nav ul {
     text-align: center;
     font-size: 32px;
     align-items: flex-start;
+    padding: 20px;
 }
    
 /* about me text paragraphs */
@@ -208,6 +215,7 @@ nav ul {
     white-space: nowrap;
     margin: 0 auto;
     padding-top: 50px;
+    padding-bottom: 20px;
     animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
 }
 
