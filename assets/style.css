@@ -13,7 +13,10 @@ p {
     font-size: 18px;
     padding-left: 10px;
     padding-right: 10px;
-    
+}
+
+.underline-on-hover:hover {
+    text-decoration: underline;
 }
 
 a {
@@ -58,9 +61,9 @@ header {
     
 /* about me page image */
 .selfie {
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
 .about-text {
@@ -69,10 +72,10 @@ header {
 
 /* stephanie zolton text */
 .name h1 {
-        padding: 20px;
-        text-align: left;
-        font-size: 73px;
-        color: white;
+    padding: 20px;
+    text-align: left;
+    font-size: 73px;
+    color: white;
 }
 
 .name {
@@ -210,14 +213,14 @@ nav ul {
 /* about me image */
 .selfie {
     display: flex;
+    flex-direction: 
   
 }
 
 .selfie img {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     max-width: 500px;
+    height: auto;
     padding: 20px;
 }
 
