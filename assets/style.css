@@ -1,4 +1,5 @@
 
+/* main */
 body {
     font-family: "FranklinGothic URW", Arial, sans-serif;
     margin: 0;
@@ -6,6 +7,7 @@ body {
     background: linear-gradient(to right, white, lightcyan)
 }
 
+/* paragraphs */
 p {
     font-family: "FranklinGothic URW", Arial, sans-serif;
     font-size: 18px;
@@ -13,11 +15,11 @@ p {
 }
 
 a {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Inherit the color from the parent */
+    text-decoration: none;
+    color: inherit;
 }
 
-
+/* navigation panels */
 .nav-header {
     background-color: #6ac9cb;
     font-size: 18px;
@@ -28,12 +30,14 @@ a {
    
 }
 
+/* blue navigation bar */
 header {
     background-color: #6ac9cb;
     color: white;
     padding: 10px 20px;
 }
 
+/* stephanie zolton title */
 .name {
     color: white;
     font-family: "Bebas Neue", Arial, sans-serif;
@@ -47,62 +51,69 @@ header {
     padding: 10px;
 }
 
+/* mobile responsiveness */
 @media only screen and (max-width: 720px) {
-    .selfie {
+    
+/* about me page image */
+.selfie {
         display: flex;
         flex-direction: column;
         padding: 20px;
-    }
+}
 
-    .about-text {
-        margin: auto;
-    }
+.about-text {
+    margin: auto;
+}
 
-    .name h1 {
+/* stephanie zolton text */
+.name h1 {
         padding: 20px;
         text-align: left;
         font-size: 73px;
         color: white;
-    }
-
-    .name {
-        order: 2;
-    }
-
-    .nav-header {
-        flex-direction: column-reverse;;
-        align-items: center;
-        font-size: 28px;
-    }
-
-    nav {
-        order: 1; 
-        margin-bottom: 20px; 
-    }
-
-    .title-headers {
-        text-align: center;     
-    }
-
-    }
-
-    .paramore {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-    }
-
-    .paramore img {
-        max-width: 100%;
-        height: auto;
-    }
-
-nav {
-    float: right; 
-   
 }
 
+.name {
+    order: 2;
+}
+
+/* navigation bar info */
+.nav-header {
+    flex-direction: column-reverse;;
+    align-items: center;
+    font-size: 28px;
+}
+
+nav {
+    order: 1; 
+    margin-bottom: 20px; 
+}
+
+/* the page titles */
+.title-headers {
+    text-align: center;     
+}
+}
+
+/* portfolio images  */
+.paramore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.paramore img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* navigation */
+nav {
+    float: right; 
+}
+    
+/* unordered list on nav bar */
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -111,24 +122,25 @@ nav ul {
     justify-content: space-between;
     align-items: center;
 }
-
-nav ul li {
+    
+    nav ul li {
     margin-right: 20px;
 }
-
-nav ul li:last-child {
+    
+    nav ul li:last-child {
     margin-right: 0;
 }
-
-nav ul li a {
+    
+    nav ul li a {
     color: whitesmoke;
     text-decoration: none;
 }
-
-nav ul li a:hover {
+    
+    nav ul li a:hover {
     text-decoration: underline;
 }
-
+    
+/* h1 header titles */
 .title-headers {
     font-family: "Bebas Neue", Arial, sans-serif;
     color: #6ac9cb;
@@ -137,22 +149,22 @@ nav ul li a:hover {
     margin-bottom: -10px;
     overflow: hidden;
     text-overflow: ellipsis;
-
 }
-
+    
+ /* images */
 .paramore {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-
-.paramore img {
+    
+ .paramore img {
     width: 800px;
     padding: 20px;
 }
 
+/* about info page */
 .about {
     font-family: "Bebas Neue", Arial, sans-serif;
     color: #5db6b8;
@@ -160,17 +172,17 @@ nav ul li a:hover {
     text-align: center;
     font-size: 32px;
     align-items: flex-start;
-
 }
-
+   
+/* about me text paragraphs */
 .about-text {
     font-family: "FranklinGothic URW", Arial, sans-serif;
     font-size: 18px;
     padding: 20px;
     text-align: justify;
- 
 }
 
+/* about me image */
 .selfie {
     display: flex;
   
@@ -184,10 +196,12 @@ nav ul li a:hover {
     padding: 20px;
 }
 
+/* animation for welcome to my portfolio text */
 @keyframes typing {
     from { width: 0; }
     to { width: 100%; }
 }
+
 .typewriter {
     overflow: hidden;
     border-right: .15em white;
@@ -199,5 +213,5 @@ nav ul li a:hover {
 
 @keyframes blink-caret {
     from, to { border-color: transparent; }
-    50% { border-color: white; }
+    50% { border-color: lightcyan; }
 }
